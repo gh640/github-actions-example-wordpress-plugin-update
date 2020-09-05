@@ -33,7 +33,8 @@ jobs:
           CREATE DATABASE \`$MYSQL_DATABASE\` ;
           CREATE USER '$MYSQL_USER'@'%' IDENTIFIED BY '$MYSQL_PASSWORD' ;
           GRANT ALL ON \`$MYSQL_DATABASE\`.* TO '$MYSQL_USER'@'%' ;
-          FLUSH PRIVILEGES ;"
+          FLUSH PRIVILEGES ;
+          "
       - name: Configure WordPress
         run: >
           wp config create
