@@ -75,3 +75,9 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
 ```
+
+## Reference
+
+A post written in Japanase:
+
+- [GitHub Actions で WordPress のプラグインを自動更新する方法](https://gotohayato.com/content/521/)
